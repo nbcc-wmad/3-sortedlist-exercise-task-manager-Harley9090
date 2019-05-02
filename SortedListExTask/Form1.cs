@@ -1,4 +1,8 @@
-﻿using System;
+﻿// Author: Harley Veillette
+// Date: 2019-05-02
+// Exercise: Task Manager
+// Notes: 
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
