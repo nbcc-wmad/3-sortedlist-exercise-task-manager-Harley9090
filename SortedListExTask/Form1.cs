@@ -89,5 +89,20 @@ namespace SortedListExTask
         {
             RemoveTask();
         }
+
+        private void PrintTasks()
+        {
+            string msg = string.Empty;
+            foreach(var task in myTaskSortedList)
+            {
+                msg += $"{task.Key} \n {task.Value} \n"; 
+            }
+            MessageBox.Show(msg);
+        }
+
+        private void btnPrintAll_Click(object sender, EventArgs e)
+        {
+            PrintTasks();
+        }
     }
 }
